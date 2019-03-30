@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+import pic01 from '../assets/images/pic01.jpg'
 
 const Generic = (props) => (
     <Layout>
@@ -36,21 +37,34 @@ const Generic = (props) => (
                             </ol>
                         </div>
                         <div className="col-6">
-                            <header className="major">
-                                <h2>Basic Pricing Structure</h2>
-                            </header>
-
-                            <p>Cost: We charge a flat fee for supplier research that ranges from 850 USD to 3250 USD. This total cost depends on the complexity of the research and the price can be quoted after a free initial consultation.</p>
-                            <p>For your reference, we’ve provided three basic prices that match project specifications by difficulty or size of the project to be undertaken:</p>
-                            <p>Easy Projects: USD 850</p>
-                            <p>This encompasses projects that involve a small order of a pre-made product, purchased at the wholesale or retail level. Turnaround for such a project is typically relatively fast, coming to completion within a few weeks time.</p>
-                            <p>Normal Projects: USD 1,250</p>
-                            <p>This encompasses projects that include medium or large orders of products that are still “off the shelf”, products that are not custom-made. These projects will be purchased directly from the manufacturer and have a turn-around of a few weeks.</p>
-                            <p>Difficult Projects: USD 3,250</p>
-                            <p>‘Difficult’ projects would include those which are highly customized. These are sourced factory-direct and can be completed in two months time.</p>
+                            <span className="image fit"><img src={pic01} alt="" /></span>
                         </div>
                     </div>
                 </section>
+
+                <section id="three" className="main style2">
+                            <div className="grid-wrapper">
+                                <div className="col-12">
+                                    <header className="major">
+                                        <h2>Basic Pricing Structure</h2>
+                                    </header>
+                                    <p>Cost: We charge a flat fee for supplier research that ranges from 850 USD to 3250 USD. This total cost depends on the complexity of the research and the price can be quoted after a free initial consultation.</p>
+                                    <p>For your reference, we’ve provided three basic prices that match project specifications by difficulty or size of the project to be undertaken:</p>
+                                </div>
+                                <div className="col-4">
+                                  <h4>Easy Projects: USD 850</h4>
+                                  <p>This encompasses projects that involve a small order of a pre-made product, purchased at the wholesale or retail level. Turnaround for such a project is typically relatively fast, coming to completion within a few weeks time.</p>
+                                </div>
+                                <div className="col-4">
+                                  <h4>Normal Projects: USD 1,250</h4>
+                                  <p>This encompasses projects that include medium or large orders of products that are still “off the shelf”, products that are not custom-made. These projects will be purchased directly from the manufacturer and have a turn-around of a few weeks.</p>
+                                </div>
+                                <div className="col-4">
+                                  <h4>Difficult Projects: USD 3,250</h4>
+                                  <p>‘Difficult’ projects would include those which are highly customized. These are sourced factory-direct and can be completed in two months time.</p>
+                                </div>
+                            </div>
+                        </section>
 
     </Layout>
 )

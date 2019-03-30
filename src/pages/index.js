@@ -74,11 +74,11 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="three" className="main style1 special">
+                <section id="services" className="main style1 special">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Basic Services</h2>
+                                <h2>Our Services</h2>
                             </header>
                             <p>We tailor our services to suit product and customer requirements.</p>
                         </div>
@@ -93,7 +93,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Quality Assurance</h3>
+                            <h3>Quality Assurance and Regulatory Compliance</h3>
                             <p>We offer a range of services including pre-shipment and 100% product inspections.</p>
                             <ul className="actions">
                                 <li><Link to="/assurance" className="button">More</Link></li>
@@ -104,7 +104,7 @@ class Homepage extends React.Component {
                             <h3>Negotiation, Payments and Shipping</h3>
                             <p>Our services can guarantee the security of your payments, and can place holds on funds until suppliers have delivered compliant goods.</p>
                             <ul className="actions">
-                                <li><Link to="/process" className="button">More</Link></li>
+                                <li><Link to="/negotiations" className="button">More</Link></li>
                             </ul>
                         </div>
 
