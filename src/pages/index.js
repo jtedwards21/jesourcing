@@ -24,6 +24,7 @@ class Homepage extends React.Component {
                                 <h2>Our Team of Sourcing Professionals</h2>
                             </header>
                             <p>Our team of dedicated sourcing professionals can help you to implement convenient solutions to sourcing problems in China.</p>
+                            <p>Our staff is made up of a team of sourcing professionals who can help our customers to find and manage suppliers in China. Our professional team is based in Eastern China, just outside of Shanghai.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
@@ -85,7 +86,7 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
                             <h3>Supplier Identification and Quotations</h3>
-                            <p>In depth information about a range of different suppliers for your product</p>
+                            <p>Our professional team can makes it easy to find a good supplier in China. We help customers to get accurate quotes from manufacturers and to make an in-depth comparison of services.</p>
                             <ul className="actions">
                                 <li><Link to="/identification" className="button">More</Link></li>
                             </ul>

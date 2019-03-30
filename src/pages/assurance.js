@@ -9,7 +9,7 @@ const Generic = (props) => (
             <title>Sourcing - Assurance</title>
             <meta name="description" content="Assurance" />
         </Helmet>
-    
+
         <section id="one" className="main style1">
              <div className="grid-wrapper">
                  <div className="col-12">
@@ -21,7 +21,7 @@ const Generic = (props) => (
                   </div>
                </div>
            </section>
-    
+
          <section id="twp" className="main style1">
              <div className="grid-wrapper">
                  <div className="col-6">
@@ -30,13 +30,15 @@ const Generic = (props) => (
                       </header>
                       <p>We offer a variety of services that help to assure the quality of products and adherence to manufacturing regulations.</p>
                       <p>On-site confirmation that factory is producing the products as stated. We can also confirm that the factory has the stated production capacity, number of employees, business partners and working conditions.</p>
+                      <p>On-site review of the supplier’s facility and quality control system to confirm the likelihood they can produce the product you wish to order. We review the qualifications of the supplier to see what standards they operate at. We assess them based on standards such as ISO9001, TS16949 and ISO14001.</p>
+                      <p>Cost: 425 USD (all inclusive)</p>
                   </div>
                   <div className="col-6">
                      <span className="image fit"><img src="" alt="" /></span>
                    </div>
                </div>
            </section>
-    
+
             <section id="three" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -59,7 +61,7 @@ const Generic = (props) => (
                         </div>
                     </div>
                 </section>
-    
+
                 <section id="four" className="main style1">
              <div className="grid-wrapper">
                  <div className="col-6">

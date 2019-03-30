@@ -9,7 +9,7 @@ const Generic = (props) => (
             <title>Sourcing - Supplier Identification and Quotation Services</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
-    
+
         <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-12">
@@ -20,7 +20,7 @@ const Generic = (props) => (
                         </div>
                     </div>
                 </section>
-    
+
         <section id="two" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">
@@ -39,6 +39,8 @@ const Generic = (props) => (
                             <header className="major">
                                 <h2>Basic Pricing Structure</h2>
                             </header>
+
+                            <p>Cost: We charge a flat fee for supplier research that ranges from 850 USD to 3250 USD. This total cost depends on the complexity of the research and the price can be quoted after a free initial consultation.</p>
                             <p>For your reference, we’ve provided three basic prices that match project specifications by difficulty or size of the project to be undertaken:</p>
                             <p>Easy Projects: USD 850</p>
                             <p>This encompasses projects that involve a small order of a pre-made product, purchased at the wholesale or retail level. Turnaround for such a project is typically relatively fast, coming to completion within a few weeks time.</p>
