@@ -10,20 +10,23 @@ const Generic = (props) => (
             <title>Sourcing - About Us</title>
             <meta name="description" content="About" />
         </Helmet>
-
-        <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
+    
+        <section id="one" className="main style1">
+            <div className="grid-wrapper">
+                <div className="col-6">
                     <header className="major">
-                        <h1>About Us</h1>
+                        <h2>About Us</h2>
                     </header>
-                    <span className="image main"><img src="" alt="" /></span>
                     <p>After working with both buyers and Chinese manufacturers for several years and through visiting and working with customers it became clear that many projects being sourced to China ended in failure because buyers selected the wrong partners for sourcing, logistics and inspections.</p>
                     <p>I now offer professional services through partnerships with reliable suppliers and sourcing teams. Through supply chain management and related services I now help companies source products and save money.</p>
+                    <span className="image main"><img src="" alt="" /></span>
+                    <div className="col-6">
+                        <span className="image fit"><img src={pic01} alt="" /></span>
+                    </div>
                 </div>
-            </section>
-        </div>
-
+             </div>
+         </section>
+    
     </Layout>
 )
 
