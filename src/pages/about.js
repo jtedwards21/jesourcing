@@ -3,6 +3,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 
+import pic01 from '../assets/images/pic01.jpg'
+
 
 const Generic = (props) => (
     <Layout>
@@ -10,7 +12,7 @@ const Generic = (props) => (
             <title>Sourcing - About Us</title>
             <meta name="description" content="About" />
         </Helmet>
-    
+
         <section id="one" className="main style1">
             <div className="grid-wrapper">
                 <div className="col-6">
@@ -19,13 +21,14 @@ const Generic = (props) => (
                     </header>
                     <p>After working with both buyers and Chinese manufacturers for several years and through visiting and working with customers it became clear that many projects being sourced to China ended in failure because buyers selected the wrong partners for sourcing, logistics and inspections.</p>
                     <p>I now offer professional services through partnerships with reliable suppliers and sourcing teams. Through supply chain management and related services I now help companies source products and save money.</p>
-                    <div className="col-6">
-                        <span className="image fit"><img src="" alt="" /></span>
-                    </div>
+
+                </div>
+                <div className="col-6">
+                    <span className="image fit"><img src={pic01} alt="" /></span>
                 </div>
              </div>
          </section>
-    
+
     </Layout>
 )
 
