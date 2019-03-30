@@ -5,9 +5,11 @@ import Layout from '../components/layout';
 import { Link } from 'gatsby'
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+
+import qualitypic from '../assets/images/index/quality01.jpg'
+import researchpic from '../assets/images/index/research02.jpg'
+import storagepic from '../assets/images/index/storage01.jpg'
 
 class Homepage extends React.Component {
     render() {
@@ -84,7 +86,7 @@ class Homepage extends React.Component {
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
+                            <span className="image fit"><img src={researchpic} alt="" /></span>
                             <h3>Supplier Identification and Quotations</h3>
                             <p>Our professional team can makes it easy to find a good supplier in China. We help customers to get accurate quotes from manufacturers and to make an in-depth comparison of services.</p>
                             <ul className="actions">
@@ -92,7 +94,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
+                            <span className="image fit"><img src={qualitypic} alt="" /></span>
                             <h3>Quality Assurance and Regulatory Compliance</h3>
                             <p>We offer a range of services including pre-shipment and 100% product inspections.</p>
                             <ul className="actions">
@@ -100,7 +102,7 @@ class Homepage extends React.Component {
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
+                            <span className="image fit"><img src={storagepic} alt="" /></span>
                             <h3>Negotiation, Payments and Shipping</h3>
                             <p>Our services can guarantee the security of your payments, and can place holds on funds until suppliers have delivered compliant goods.</p>
                             <ul className="actions">
