@@ -33,34 +33,42 @@ class Homepage extends React.Component {
 
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
-                        <div className="col-6">
-                            <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
-                            </ul>
-                        </div>
-                        <div className="col-6">
+                        <div className="col-12">
                             <header className="major">
                                 <h2>The Purchasing Process</h2>
                             </header>
-                            <h3>Step 1: Development of Specifications</h3>
-                            <button>Learn More</button>
-                            <h3>Step 2: Supplier Assessment</h3>
-                            <button>Learn More</button>
-                            <h3>Step 3: Procurement of Samples</h3>
-                            <button>Learn More</button>
-                            <h3>Step 4: Negotiation</h3>
-                            <button>Learn More</button>
-                            <h3>Step 5: Payment</h3>
-                            <button>Learn More</button>
-                            <h3>Step 6: Manufacturing</h3>
-                            <button>Learn More</button>
-                            <h3>Step 7: Shipping and Customs</h3>
-                            <button>Learn More</button>
+                        </div>
+                        <div className="col-6">
+                            <ul className="alt">
+                                <li><span className="">
+                                  <h4>Step 1: Development of Specifications</h4>
+                                  <button>Learn More</button>
+                                </span></li>
+                                <li><span className="">
+                                  <h4>Step 2: Supplier Assessment</h4>
+                                  <button>Learn More</button>
+                                </span></li>
+                                <li><span className="">
+                                  <h4>Step 3: Procurement of Samples</h4>
+                                  <button>Learn More</button>
+                                </span></li>
+                            </ul>
+                        </div>
+                        <div className="col-6">
+                          <ul className="alt">
+                            <li><span className="">
+                              <h4>Step 4: Negotiation</h4>
+                              <button>Learn More</button>
+                            </span></li>
+                            <li><span className="">
+                              <h4>Step 5: Payment</h4>
+                              <button>Learn More</button>
+                            </span></li>
+                            <li><span className="">
+                              <h4>Step 6: Manufacturing and Shipping</h4>
+                              <button>Learn More</button>
+                            </span></li>
+                          </ul>
                         </div>
                     </div>
                 </section>
