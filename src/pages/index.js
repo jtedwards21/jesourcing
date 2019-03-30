@@ -105,12 +105,11 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Want to learn more?</h2>
                         </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
+                        <p>Contact us for a free consulatation about your project today.</p>
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><Link to="/contact" className="button">Contact Info</Link></li>
                         </ul>
                     </div>
                 </section>
