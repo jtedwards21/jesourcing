@@ -71,31 +71,31 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Basic Services</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <p>We tailor our services to suit product and customer requirements.</p>
                         </div>
 
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Supplier Identification and Quotations</h3>
+                            <p>In depth information about a range of different suppliers for your product</p>
                             <ul className="actions">
-                                <li><Link to="/404" className="button">More</Link></li>
+                                <li><Link to="/identification" className="button">More</Link></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Quality Assurance</h3>
+                            <p>We offer a range of services including pre-shipment and 100% product inspections.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><Link to="/assurance" className="button">More</Link></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Negotiation, Payments and Shipping</h3>
+                            <p>Our services can guarantee the security of your payments, and can place holds on funds until suppliers have delivered compliant goods.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><Link to="/process" className="button">More</Link></li>
                             </ul>
                         </div>
 
