@@ -32,7 +32,7 @@ const Generic = (props) => (
                       <p>On-site confirmation that factory is producing the products as stated. We can also confirm that the factory has the stated production capacity, number of employees, business partners and working conditions.</p>
                   </div>
                   <div className="col-6">
-                     <span className="image fit"><img src={pic01} alt="" /></span>
+                     <span className="image fit"><img src="" alt="" /></span>
                    </div>
                </div>
            </section>
@@ -70,7 +70,7 @@ const Generic = (props) => (
                       <p>Import Compliance Planning and Implementation</p>
                       <p>Together with our customers we first work to outline goals for your supply chain. Typical projects start at 3,500 USD.</p></div>
                   <div className="col-6">
-                     <span className="image fit"><img src={pic01} alt="" /></span>
+                     <span className="image fit"><img src="" alt="" /></span>
                    </div>
                </div>
            </section>
