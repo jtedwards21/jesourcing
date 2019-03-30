@@ -19,9 +19,8 @@ const Generic = (props) => (
                     </header>
                     <p>After working with both buyers and Chinese manufacturers for several years and through visiting and working with customers it became clear that many projects being sourced to China ended in failure because buyers selected the wrong partners for sourcing, logistics and inspections.</p>
                     <p>I now offer professional services through partnerships with reliable suppliers and sourcing teams. Through supply chain management and related services I now help companies source products and save money.</p>
-                    <span className="image main"><img src="" alt="" /></span>
                     <div className="col-6">
-                        <span className="image fit"><img src={pic01} alt="" /></span>
+                        <span className="image fit"><img src="" alt="" /></span>
                     </div>
                 </div>
              </div>
