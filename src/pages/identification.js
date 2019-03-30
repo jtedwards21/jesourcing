@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Sourcing - Quotation Services</title>
+            <title>Sourcing - Supplier Identification and Quotation Services</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
