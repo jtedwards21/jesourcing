@@ -975,7 +975,7 @@
 		@include padding(9em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/overlay2.png'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent11) 5%, _palette(accent12) 30%, _palette(accent13));
+		background-image:		url('../images/overlay2.png'),			linear-gradient(45deg, _palette(dark-b) 5%, _palette(black-pearl) 30%, _palette(dark-b));
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		overflow: hidden;
@@ -1049,7 +1049,7 @@
 		@include padding(6em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/overlay2.png'),		url('../images/overlay4.svg'),		linear-gradient(45deg, _palette(accent11), _palette(accent12) 50%, _palette(accent13) 95%);
+		background-image:		url('../images/overlay2.png'), linear-gradient(45deg, _palette(dark-b), _palette(black-pearl) 50%, _palette(dark-b) 95%);
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		text-align: center;

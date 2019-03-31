@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic01 from '../assets/images/pic01.jpg'
+import research01 from '../assets/images/identification/research01.jpg'
 
 const Generic = (props) => (
     <Layout>
@@ -37,7 +37,7 @@ const Generic = (props) => (
                             </ol>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <span className="image fit"><img src={research01} alt="" /></span>
                         </div>
                     </div>
                 </section>
