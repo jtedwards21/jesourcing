@@ -78,6 +78,16 @@ const Generic = (props) => (
                            <h1>Procurement of Samples</h1>
                         </header>
                         <p>Our next step is to purchase samples from the supplier. These samples and any relevant documents are sent to our facilities in Jiaxing where quality control checks are performed by a professional team. It’s also possible for us to consolidate any relevant samples and ship them to the customer.</p>
+                        <p>It's important to us that the samples that are recieved match the expectations and price point.</p>
+                    </div>
+                    <div className="col-6">
+                      <header className="major">
+                        <h4>Common Problems</h4>
+                      </header>
+                      <ul>
+                        <li>Aesthetics or dimensions don't match the quality reports for the product</li>
+                        <li>Supplier is unable to produce the samples, despite being confident beforehand</li>
+                      </ul>
                     </div>
                  </div>
             </section>
@@ -89,6 +99,16 @@ const Generic = (props) => (
                             <h1>Negotiation</h1>
                          </header>
                          <p>After generating feedback about the samples, we prepare to negotiate the unit price for mass production with suppliers. At this stage we already know of several credible suppliers, and this helps us in negotiations. Our goal is to get the best quality for the price being paid for the products.</p>
+                         <p>We analyze the information and quotations from the different suppliers so that we are able to get into our target price zone for the particular product or component.</p>
+                     </div>
+                     <div className="col-6">
+                       <header className="major">
+                         <h4>Common Problems</h4>
+                       </header>
+                       <ul>
+                         <li>Aesthetics or dimensions don't match the quality reports for the product</li>
+                         <li>Supplier is unable to produce the samples, despite being confident beforehand</li>
+                       </ul>
                      </div>
                   </div>
              </section>
