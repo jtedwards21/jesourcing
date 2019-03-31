@@ -22,7 +22,7 @@ const Generic = (props) => (
                     </div>
                 </section>
 
-        <section id="two" className="main style8">
+        <section id="two" className="main style7">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
@@ -42,7 +42,7 @@ const Generic = (props) => (
                     </div>
                 </section>
 
-                <section id="three" className="main style4">
+                <section id="three" className="main style1">
                             <div className="grid-wrapper">
                                 <div className="col-12">
                                     <header className="major">

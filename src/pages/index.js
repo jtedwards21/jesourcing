@@ -4,12 +4,11 @@ import Helmet from "react-helmet";
 import Layout from '../components/layout';
 import { Link } from 'gatsby'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic04 from '../assets/images/pic04.jpg'
 
 import qualitypic from '../assets/images/index/quality01.jpg'
 import researchpic from '../assets/images/index/research02.jpg'
 import storagepic from '../assets/images/index/storage01.jpg'
+import teampic from '../assets/images/index/team01.jpg'
 
 class Homepage extends React.Component {
     render() {
@@ -29,12 +28,12 @@ class Homepage extends React.Component {
                             <p>Our staff is made up of a team of sourcing professionals who can help our customers to find and manage suppliers in China. Our professional team is based in Eastern China, just outside of Shanghai.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <span className="image fit"><img src={teampic} alt="" /></span>
                         </div>
                     </div>
                 </section>
 
-                <section id="two" className="main style6">
+                <section id="two" className="main style5">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
@@ -113,7 +112,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="four" className="main style2 special">
+                <section id="four" className="main style5 special">
                     <div className="container">
                         <header className="major">
                             <h2>Want to learn more?</h2>
