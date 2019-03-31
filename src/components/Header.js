@@ -13,7 +13,7 @@ class Header extends React.Component {
                     <ul className="actions">
                         <li><Link to="/about" className="button scrolly">About</Link></li>
                         <li><Link to="#services" className="button scrolly">Services</Link></li>
-                        <li><Link to="/cases" className="button scrolly">Case Studies</Link></li>
+                        <li><Link to="#process" className="button scrolly">Sourcing</Link></li>
                         <li><Link to="/contact" className="button scrolly">Contact</Link></li>
                     </ul>
                 </div>

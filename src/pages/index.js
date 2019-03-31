@@ -33,7 +33,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="two" className="main style5">
+                <section id="process" className="main style5">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
