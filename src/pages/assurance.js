@@ -2,6 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+import inspectionpic from '../assets/images/assurance/inspectionpic01.jpg'
+import inspectionpic02 from '../assets/images/assurance/inspectionpic01.jpg'
+
 
 const Generic = (props) => (
     <Layout>
@@ -34,12 +37,12 @@ const Generic = (props) => (
                       <p>Cost: 425 USD (all inclusive)</p>
                   </div>
                   <div className="col-6">
-                     <span className="image fit"><img src="" alt="" /></span>
+                     <span className="image fit"><img src={inspectionpic} alt="" /></span>
                    </div>
                </div>
            </section>
 
-            <section id="three" className="main style2">
+            <section id="three" className="main style7">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
@@ -64,16 +67,16 @@ const Generic = (props) => (
 
                 <section id="four" className="main style1">
              <div className="grid-wrapper">
-                 <div className="col-6">
+                <div className="col-6">
+                  <span className="image fit"><img src={inspectionpic02} alt="" /></span>
+                </div>
+                <div className="col-6">
                      <header className="major">
                          <h2>Quality Assurance Planning and Implementation Consultation</h2>
                       </header>
                       <p>Through quality assurance planning our team of experts will create a plan to reduce defects in your supply chain. Our team works to develop a plan that is suitable for your product and then works with the supplier to implement it on the factory floor. The process pays for itself as the savings on defective parts and reworking outpace our initial consultation fee. Typical projects start at 6,500 USD.</p>
                       <p>Import Compliance Planning and Implementation</p>
                       <p>Together with our customers we first work to outline goals for your supply chain. Typical projects start at 3,500 USD.</p></div>
-                  <div className="col-6">
-                     <span className="image fit"><img src="" alt="" /></span>
-                   </div>
                </div>
            </section>
 

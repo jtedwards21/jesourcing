@@ -120,7 +120,7 @@ class Homepage extends React.Component {
                         </header>
                         <p>Contact us for a free consulatation about your project today.</p>
                         <ul className="actions uniform">
-                            <li><Link to="/contact" className="button">Contact Info</Link></li>
+                            <li><Link to="/contact" className="button">Contact Us</Link></li>
                         </ul>
                     </div>
                 </section>
