@@ -43,15 +43,15 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                             <ul className="alt">
-                                <li><span className="">
+                                <li className="process-list-item"><span>
                                   <h4>Step 1: Development of Specifications</h4>
                                   <button>Learn More</button>
                                 </span></li>
-                                <li><span className="">
+                                <li className="process-list-item"><span>
                                   <h4>Step 2: Supplier Assessment</h4>
                                   <button>Learn More</button>
                                 </span></li>
-                                <li><span className="">
+                                <li className="process-list-item"><span>
                                   <h4>Step 3: Procurement of Samples</h4>
                                   <button>Learn More</button>
                                 </span></li>
@@ -59,15 +59,15 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                           <ul className="alt">
-                            <li><span className="">
+                            <li className="process-list-item"><span>
                               <h4>Step 4: Negotiation</h4>
                               <button>Learn More</button>
                             </span></li>
-                            <li><span className="">
+                            <li className="process-list-item"><span>
                               <h4>Step 5: Payment</h4>
                               <button>Learn More</button>
                             </span></li>
-                            <li><span className="">
+                            <li className="process-list-item"><span>
                               <h4>Step 6: Manufacturing and Shipping</h4>
                               <button>Learn More</button>
                             </span></li>
