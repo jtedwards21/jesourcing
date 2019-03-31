@@ -75,7 +75,12 @@ const Generic = (props) => (
                 <div className="grid-wrapper">
                     <div className="col-12">
                         <header className="major">
-                           <h1>Procurement of Samples</h1>
+                           <h2>Procurement of Samples</h2>
+                        </header>
+                    </div>
+                    <div className="col-6">
+                        <header className="major">
+                           <h4>Description</h4>
                         </header>
                         <p>Our next step is to purchase samples from the supplier. These samples and any relevant documents are sent to our facilities in Jiaxing where quality control checks are performed by a professional team. It’s also possible for us to consolidate any relevant samples and ship them to the customer.</p>
                         <p>It's important to us that the samples that are recieved match the expectations and price point.</p>
@@ -96,7 +101,12 @@ const Generic = (props) => (
                  <div className="grid-wrapper">
                      <div className="col-12">
                          <header className="major">
-                            <h1>Negotiation</h1>
+                            <h2>Negotiation</h2>
+                         </header>
+                          </div>
+                     <div className="col-6">
+                         <header className="major">
+                            <h4>Description</h4>
                          </header>
                          <p>After generating feedback about the samples, we prepare to negotiate the unit price for mass production with suppliers. At this stage we already know of several credible suppliers, and this helps us in negotiations. Our goal is to get the best quality for the price being paid for the products.</p>
                          <p>We analyze the information and quotations from the different suppliers so that we are able to get into our target price zone for the particular product or component.</p>
@@ -117,9 +127,23 @@ const Generic = (props) => (
                   <div className="grid-wrapper">
                       <div className="col-12">
                           <header className="major">
-                             <h1>Payment</h1>
+                             <h2>Payment</h2>
+                          </header>
+                      </div>
+                      <div className="col-6">
+                          <header className="major">
+                             <h4>Description</h4>
                           </header>
                           <p>Payment can be done in a number of ways to suit the quantity and product. Customers can pay directly to the supplier or to our company, Rigor Industrial. Through payment through us, customers have a guarantee of the quality of the products and that the supplier will not send a final product that does not correspond to the order. Should we receive product that does not match what was agreed on, we would then be able force the manufacturer to refund any downpayment that was made prior to manufacturing. If the full amount had already been directly paid to the manufacturer, this would be difficult to guarantee.</p>
+                      </div>
+                      <div className="col-6">
+                        <header className="major">
+                          <h4>Common Problems</h4>
+                        </header>
+                        <ul>
+                          <li>Aesthetics or dimensions don't match the quality reports for the product</li>
+                          <li>Supplier is unable to produce the samples, despite being confident beforehand</li>
+                        </ul>
                       </div>
                    </div>
               </section>
@@ -128,9 +152,23 @@ const Generic = (props) => (
                    <div className="grid-wrapper">
                        <div className="col-12">
                            <header className="major">
-                              <h1>Manufacturing</h1>
+                              <h2>Manufacturing</h2>
+                           </header>
+                       </div>
+                       <div className="col-6">
+                           <header className="major">
+                              <h4>Manufacturing</h4>
                            </header>
                            <p>During manufacturing, we employ a variety of different methods to ensure that the products are produced according to specification. These can range from regular communication with the supplier to on-site audits.</p>
+                       </div>
+                       <div className="col-6">
+                         <header className="major">
+                           <h4>Common Problems</h4>
+                         </header>
+                         <ul>
+                           <li>Aesthetics or dimensions don't match the quality reports for the product</li>
+                           <li>Supplier is unable to produce the samples, despite being confident beforehand</li>
+                         </ul>
                        </div>
                     </div>
                </section>
@@ -139,9 +177,23 @@ const Generic = (props) => (
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                               <h1>Shipping and Customs</h1>
+                               <h2>Shipping and Customs</h2>
                             </header>
-                              <p>Shipping can be done through express, air freight or sea freight. We can help customers to select the appropriate shipping method and deal with customs if necessary.</p>
+                        </div>
+                        <div className="col-6">
+                            <header className="major">
+                               <h4>Description</h4>
+                            </header>
+                            <p>Shipping can be done through express, air freight or sea freight. We can help customers to select the appropriate shipping method and deal with customs if necessary.</p>
+                        </div>
+                        <div className="col-6">
+                          <header className="major">
+                            <h4>Common Problems</h4>
+                          </header>
+                          <ul>
+                            <li>Aesthetics or dimensions don't match the quality reports for the product</li>
+                            <li>Supplier is unable to produce the samples, despite being confident beforehand</li>
+                          </ul>
                         </div>
                      </div>
                 </section>
