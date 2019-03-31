@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 
 import about01 from '../assets/images/about/about01.jpg'
 

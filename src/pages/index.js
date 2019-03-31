@@ -44,15 +44,15 @@ class Homepage extends React.Component {
                             <ul className="alt">
                                 <li className="process-list-item"><span>
                                   <h4>Step 1: Development of Specifications</h4>
-                                  <button>Learn More</button>
+                                  <Link to="/process/#two"><button>Learn More</button></Link>
                                 </span></li>
                                 <li className="process-list-item"><span>
                                   <h4>Step 2: Supplier Assessment</h4>
-                                  <button>Learn More</button>
+                                  <Link to="/process/#three"><button>Learn More</button></Link>
                                 </span></li>
                                 <li className="process-list-item"><span>
                                   <h4>Step 3: Procurement of Samples</h4>
-                                  <button>Learn More</button>
+                                  <Link to="/process/#four"><button>Learn More</button></Link>
                                 </span></li>
                             </ul>
                         </div>
@@ -60,15 +60,15 @@ class Homepage extends React.Component {
                           <ul className="alt">
                             <li className="process-list-item"><span>
                               <h4>Step 4: Negotiation</h4>
-                              <button>Learn More</button>
+                              <Link to="/process/#five"><button>Learn More</button></Link>
                             </span></li>
                             <li className="process-list-item"><span>
                               <h4>Step 5: Payment</h4>
-                              <button>Learn More</button>
+                              <Link to="/process/#six"><button>Learn More</button></Link>
                             </span></li>
                             <li className="process-list-item"><span>
                               <h4>Step 6: Manufacturing and Shipping</h4>
-                              <button>Learn More</button>
+                              <Link to="/process/#seven"><button>Learn More</button></Link>
                             </span></li>
                           </ul>
                         </div>
