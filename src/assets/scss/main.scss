@@ -925,29 +925,42 @@
 		&.style2 {
 			@include dark(#333);
 			background-attachment:	fixed,							fixed;
-			background-image:		url('../images/overlay1.png'),		url('../images/header04.jpg');
+			background-image:		url('../images/overlay1.png'),		url('../images/header01.jpg');
 			background-size:		auto,							cover;
 		}
 
 		&.style3 {
-			background: _palette(bg);
+			@include dark(#333);
+			background-attachment:	fixed,							fixed;
+			background-image:		url('../images/overlay1.png'),		url('../images/header02.jpg');
+			background-size:		auto,							cover;
 		}
 
 		&.style4 {
 			@include dark(#333);
-			background-attachment: fixed, fixed;
-			background-image: url('../images/overlay1.png'),		url('../images/header02.jpg');
-			background-size: auto, cover;
+			background-attachment:	fixed,							fixed;
+			background-image:		url('../images/overlay1.png'),		url('../images/header03.jpg');
+			background-size:		auto,							cover;
 		}
 
 		&.style5 {
-			background: _palette(bg);
+			@include dark(#333);
+			background-attachment: fixed, fixed;
+			background-image: url('../images/overlay1.png'),		url('../images/header04.jpg');
+			background-size: auto, cover;
 		}
 
 		&.style6 {
 			@include dark(#333);
 			background-attachment: fixed, fixed;
-			background-image: url('../images/overlay1.png'),		url('../images/header03.jpg');
+			background-image: url('../images/overlay1.png'),		url('../images/header05.jpg');
+			background-size: auto, cover;
+		}
+
+		&.style7 {
+			@include dark(#333);
+			background-attachment: fixed, fixed;
+			background-image: url('../images/overlay1.png'),		url('../images/header06.jpg');
 			background-size: auto, cover;
 		}
 	}
